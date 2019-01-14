@@ -1,5 +1,8 @@
 # song-index3
 Accessing a database with a server that provides a RESTful JSON API returning html web pages
+
+[Demo](https://songbookindex3.herokuapp.com/songs)
+
 `
 http://localhost:3000/index.html
 
