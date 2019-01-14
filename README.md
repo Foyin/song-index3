@@ -3,7 +3,10 @@ Accessing a database with a server that provides a RESTful JSON API returning ht
 
 [Demo](https://songbookindex3.herokuapp.com/songs)
 
+
 ```
+Testing
+
 http://localhost:3000/index.html
 
 http://localhost:3000/users
@@ -11,6 +14,16 @@ http://localhost:3000/users
 http://localhost:3000/songs?title=Girl
 
 http://localhost:3000/song/372
+
+With Demo:
+
+https://songbookindex3.herokuapp.com/index.html
+
+https://songbookindex3.herokuapp.com/users
+
+https://songbookindex3.herokuapp.com/songs?title=Girl
+
+https://songbookindex3.herokuapp.com/song/372
 ```
 
 ### Demo
