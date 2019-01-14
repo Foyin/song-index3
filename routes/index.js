@@ -15,7 +15,7 @@ db.serialize(function() {
   sqlString = "INSERT OR REPLACE INTO users VALUES ('frank', 'secret2')"
   db.run(sqlString)
 })
-
+/*
 exports.authenticate = function(request, response, next) {
   /*
 	Middleware to do BASIC HTTP 401 authentication
@@ -28,7 +28,7 @@ exports.authenticate = function(request, response, next) {
 
   You can bypass this authentication altogether by removing the
   app.use(routes.authenticate) statement in the server code
-	*/
+	
   let auth = request.headers.authorization
   // auth is a base64 representation of (username:password)
   //so we will need to decode the base64
@@ -82,7 +82,7 @@ exports.authenticate = function(request, response, next) {
   }
   //notice no call to next() here
 }
-
+*/
 
 function parseURL(request, response) {
   let parseQuery = true //parseQueryStringIfTrue

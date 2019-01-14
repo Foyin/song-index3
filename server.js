@@ -69,7 +69,7 @@ function headerLogger(request, response, next){
 //register middleware with dispatcher
 //ORDER MATTERS HERE
 //middleware
-app.use(routes.authenticate) //authenticate user
+//app.use(routes.authenticate) //authenticate user
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(logger('dev'))
 //app.use(methodLogger)
